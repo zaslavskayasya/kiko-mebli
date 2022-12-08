@@ -1,0 +1,123 @@
+$primary: #FFFFFF;
+$accent: #ECD59C;
+$warn: #dfa612;
+
+
+.accent{
+    color: #{$accent};
+}
+.menu-text{
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 17px;
+    text-decoration-line: none;
+    color: #{$primary};
+    transition: ease-in-out 0.3s;
+    border-bottom: 1px solid transparent;
+    &:hover{
+
+        // text-decoration-line: underline;
+        border-bottom: 1px solid #fff;
+    }
+}
+
+
+.menu-point {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 22px;
+    /* identical to box height */
+    display: flex;
+    align-items: center;
+    text-transform: capitalize;
+    color: #FFFFFF;
+}
+
+
+.h1{
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 33px;
+    // line-height: 34px;
+    color: #{$accent};
+    margin: 0px;
+}
+
+.h2{
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 28px;
+    line-height: 34px;
+    color: #{$accent};
+}
+
+.h3{
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 24px;
+    color: #{$accent};
+    margin: 0 0 14px 0;
+}
+
+.h4{
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 150%;
+    /* identical to box height, or 24px */
+
+    display: flex;
+    align-items: center;
+
+    color: #{$accent};
+    // margin: 10px 0px 3px 0px;
+}
+
+
+.h5{
+    margin: 0px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 150%;
+    color: #000000;
+}
+
+.small-text{
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 150%;
+    /* identical to box height, or 21px */
+
+    display: flex;
+    align-items: center;
+
+    color: #FFFFFF;
+}
+
+.normal-text{
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 130%;
+    color: #FFFFFF;
+}
+
+@media screen and (max-width: 968px){
+    .h1{
+        font-size: 28px;
+    }
+}

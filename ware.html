@@ -1,0 +1,911 @@
+<!DOCTYPE html>
+<html lang="uk">
+
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="author" content="author name" />
+  <meta name="application-name" content="app name" />
+  <meta name="desciption" content="page description" />
+  <meta name="keywords" content="Enter keywords here" />
+  <!-- Social Media Meta tags -->
+  <meta property="og:title" content="" />
+  <meta property="og:type" content="" />
+  <meta property="og:url" content="" />
+  <meta property="og:image" content="" />
+  <meta name="theme-color" content="#222326" />
+  <link rel="apple-touch-icon" sizes="180x180" href="#" />
+  <link rel="icon" type="image/png" sizes="32x32" href="assets/icons/ico_32.png" />
+  <link rel="icon" type="image/png" sizes="16x16" href="#" />
+  <title>Richsport</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@200;400;500;600;700&display=swap"
+    rel="stylesheet">
+  <link rel="stylesheet" href="/owl2/owl.carousel.css">
+  <link rel="stylesheet" href="/owl2/owl.theme.css">
+  <link rel="stylesheet" href="./nouislider/dist/nouislider.min.css">
+  <link rel="stylesheet" href="./lightbox2/dist/css/lightbox.css">
+  <link rel="stylesheet" href="css/style.css" type="text/css" />
+</head>
+
+<body>
+  <header class="header-mobile ">
+    <!-- Header -->
+    <div class="header-top">
+      <div class="container">
+        <div class="menu-info">
+          <div class="menu-info--left">
+            <ul class="menu-info--list ">
+              <li class="menu-info--list__li city">
+                <a class="menu-text selected-city" href="#">Київ</a>
+                <ul class="sub-menu ">
+                  <li class="sub_menu-li">
+                    <a class="menu-text" href="#">Одеса</a>
+                  </li>
+                  <li class="sub_menu-li">
+                    <a class="menu-text" href="#">Вінниця</a>
+                  </li>
+                </ul>
+              </li>
+              <li class="menu-info--list__li adresses-nav">
+                <a class="menu-text" href="#">Адреси магазинів</a>
+              </li>
+              <li class="search__search menu-info--list__li">
+                <span class="menu-text" id="search-trigger">
+                  <img src="assets/icons/search.svg" alt="search">
+                  Пошук
+                </span>
+                <form class="search-form">
+                  <div class="close-search">
+                    <img class="close-img" src="assets/icons/close.svg" alt="">
+                  </div>
+                  <input CLASS="hide-clear" type="search" name="search" placeholder="Що ви шукаєте?">
+                  <button>
+                    <img src="assets/icons/search.svg" alt="search">
+                  </button>
+                </form>
+              </li>
+              <li class="search__login menu-info--list__li">
+                <button class="menu-text login-button">
+                  <img src="https://richsport.ua/wp-content/themes/rish/assets/img/login.svg" alt="login">
+                  Кабінет
+                </button>
+              </li>
+            </ul>
+          </div>
+          <div class="burger-menu">
+            <!-- <img src="assets/icons/menu.svg" alt=""> -->
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="header-center">
+      <div class="back-line"></div>
+      <div class="wrap-header-center">
+        <div class="container">
+          <div class="header-position">
+            <ul class="nav nav-left">
+              <li class="nav-item  catalog-trigger ">
+                <a href="#" class="nav-link catalog-btn ">Каталог</a>
+                <!-- catalog content  -->
+                <ul class="catalog-content">
+                  <!-- catalog first-level-->
+                  <li class="catalog-content_mainCategory ">
+                    <a href="#" class="catalog-name"> Біг </a>
+                    <!-- catalog second-level-->
+                    <div class="catalog-submenu">
+                      <ul class="catalog-submenu_list">
+                        <li class="catalog-submenu__category-name">
+                          Одяг <span class="catgory-amount">(15)</span>
+                        </li>
+                        <li class="catalog-submenu__category-name">
+                          <a href="" class="catalog-submenu-product">Брюки короткі</a>
+                        </li>
+                        <li class="catalog-submenu__category-name">
+                          <a href="" class="catalog-submenu-product">Жилети</a>
+                        </li>
+                        <li class="catalog-submenu__category-name">
+                          <a href="" class="catalog-submenu-product">Кофти термобілизна</a>
+                        </li>
+                      </ul>
+                      <ul class="catalog-submenu_list">
+                        <li class="catalog-submenu__category-name">
+                          Взуття <span class="catgory-amount">(1)</span>
+                        </li>
+                        <li class="catalog-submenu__category-name">
+                          <a href="" class="catalog-submenu-product">Кросівки</a>
+                        </li>
+                      </ul>
+                      <ul class="catalog-submenu_list">
+                        <li class="catalog-submenu__category-name">
+                          Оптика <span class="catgory-amount">(2)</span>
+                        </li>
+                        <li class="catalog-submenu__category-name">
+                          <a href="" class="catalog-submenu-product">Лінзи для сонячних окулярів</a>
+                        </li>
+                        <li class="catalog-submenu__category-name">
+                          <a href="" class="catalog-submenu-product">Окуляри сонцезахисні</a>
+                        </li>
+                      </ul>
+                      <ul class="catalog-submenu_list">
+                        <li class="catalog-submenu__category-name">
+                          Оптика <span class="catgory-amount">(2)</span>
+                        </li>
+                        <li class="catalog-submenu__category-name">
+                          <a href="" class="catalog-submenu-product">Лінзи для сонячних окулярів</a>
+                        </li>
+                        <li class="catalog-submenu__category-name">
+                          <a href="" class="catalog-submenu-product">Окуляри сонцезахисні</a>
+                        </li>
+                      </ul>
+                    </div>
+                  </li>
+                  <!-- catalog first-level-->
+                  <li class="catalog-content_mainCategory">
+                    <a href="#" class="catalog-name">Велосипеди</a>
+                    <!-- catalog second-level-->
+                    <div class="catalog-submenu">
+                      <ul class="catalog-submenu_list">
+                        <li class="catalog-submenu__category-name">
+                          Одяг <span class="catgory-amount">(15)</span>
+                        </li>
+                        <li class="catalog-submenu__category-name">
+                          <a href="" class="catalog-submenu-product">Брюки короткі</a>
+                        </li>
+                        <li class="catalog-submenu__category-name">
+                          <a href="" class="catalog-submenu-product">Жилети</a>
+                        </li>
+                        <li class="catalog-submenu__category-name">
+                          <a href="" class="catalog-submenu-product">Кофти термобілизна</a>
+                        </li>
+                      </ul>
+                      <ul class="catalog-submenu_list">
+                        <li class="catalog-submenu__category-name">
+                          Взуття <span class="catgory-amount">(1)</span>
+                        </li>
+                        <li class="catalog-submenu__category-name">
+                          <a href="" class="catalog-submenu-product">Кросівки</a>
+                        </li>
+                      </ul>
+                      <ul class="catalog-submenu_list">
+                        <li class="catalog-submenu__category-name">
+                          Оптика <span class="catgory-amount">(2)</span>
+                        </li>
+                        <li class="catalog-submenu__category-name">
+                          <a href="" class="catalog-submenu-product">Лінзи для сонячних окулярів</a>
+                        </li>
+                        <li class="catalog-submenu__category-name">
+                          <a href="" class="catalog-submenu-product">Окуляри сонцезахисні</a>
+                        </li>
+                      </ul>
+                    </div>
+
+                  </li>
+                  <!-- catalog first-level-->
+                  <li class="catalog-content_mainCategory">
+                    <a href="#" class="catalog-name">Йога</a>
+                    <!-- catalog second-level-->
+                    <div class="catalog-submenu">
+                      <ul class="catalog-submenu_list">
+                        <li class="catalog-submenu__category-name">
+                          Одяг <span class="catgory-amount">(15)</span>
+                        </li>
+                        <li class="catalog-submenu__category-name">
+                          <a href="" class="catalog-submenu-product">Брюки короткі</a>
+                        </li>
+                        <li class="catalog-submenu__category-name">
+                          <a href="" class="catalog-submenu-product">Жилети</a>
+                        </li>
+                        <li class="catalog-submenu__category-name">
+                          <a href="" class="catalog-submenu-product">Кофти термобілизна</a>
+                        </li>
+                      </ul>
+                      <ul class="catalog-submenu_list">
+                        <li class="catalog-submenu__category-name">
+                          Взуття <span class="catgory-amount">(1)</span>
+                        </li>
+                        <li class="catalog-submenu__category-name">
+                          <a href="" class="catalog-submenu-product">Кросівки</a>
+                        </li>
+                      </ul>
+                      <ul class="catalog-submenu_list">
+                        <li class="catalog-submenu__category-name">
+                          Оптика <span class="catgory-amount">(2)</span>
+                        </li>
+                        <li class="catalog-submenu__category-name">
+                          <a href="" class="catalog-submenu-product">Лінзи для сонячних окулярів</a>
+                        </li>
+                        <li class="catalog-submenu__category-name">
+                          <a href="" class="catalog-submenu-product">Окуляри сонцезахисні</a>
+                        </li>
+                      </ul>
+                    </div>
+                  </li>
+                  <!-- catalog first-level-->
+                  <li class="catalog-content_mainCategory">
+                    <span class="catalog-name">Ковзани роликові</span>
+                    <!-- catalog second-level-->
+                    <div class="catalog-submenu">
+                      <ul class="catalog-submenu_list">
+                        <li class="catalog-submenu__category-name">
+                          Одяг <span class="catgory-amount">(15)</span>
+                        </li>
+                        <li class="catalog-submenu__category-name">
+                          <a href="" class="catalog-submenu-product">Брюки короткі</a>
+                        </li>
+                        <li class="catalog-submenu__category-name">
+                          <a href="" class="catalog-submenu-product">Жилети</a>
+                        </li>
+                        <li class="catalog-submenu__category-name">
+                          <a href="" class="catalog-submenu-product">Кофти термобілизна</a>
+                        </li>
+                      </ul>
+                      <ul class="catalog-submenu_list">
+                        <li class="catalog-submenu__category-name">
+                          Взуття <span class="catgory-amount">(1)</span>
+                        </li>
+                        <li class="catalog-submenu__category-name">
+                          <a href="" class="catalog-submenu-product">Кросівки</a>
+                        </li>
+                      </ul>
+                      <ul class="catalog-submenu_list">
+                        <li class="catalog-submenu__category-name">
+                          Оптика <span class="catgory-amount">(2)</span>
+                        </li>
+                        <li class="catalog-submenu__category-name">
+                          <a href="" class="catalog-submenu-product">Лінзи для сонячних окулярів</a>
+                        </li>
+                        <li class="catalog-submenu__category-name">
+                          <a href="" class="catalog-submenu-product">Окуляри сонцезахисні</a>
+                        </li>
+                      </ul>
+                    </div>
+                  </li>
+                  <!-- catalog first-level-->
+                  <li class="catalog-content_mainCategory">
+                    <a href="#" class="catalog-name">Самокати</a>
+                    <!-- catalog second-level-->
+                    <div class="catalog-submenu">
+                      <ul class="catalog-submenu_list">
+                        <li class="catalog-submenu__category-name">
+                          Одяг <span class="catgory-amount">(15)</span>
+                        </li>
+                        <li class="catalog-submenu__category-name">
+                          <a href="" class="catalog-submenu-product">Брюки короткі</a>
+                        </li>
+                        <li class="catalog-submenu__category-name">
+                          <a href="" class="catalog-submenu-product">Жилети</a>
+                        </li>
+                        <li class="catalog-submenu__category-name">
+                          <a href="" class="catalog-submenu-product">Кофти термобілизна</a>
+                        </li>
+                      </ul>
+                      <ul class="catalog-submenu_list">
+                        <li class="catalog-submenu__category-name">
+                          Взуття <span class="catgory-amount">(1)</span>
+                        </li>
+                        <li class="catalog-submenu__category-name">
+                          <a href="" class="catalog-submenu-product">Кросівки</a>
+                        </li>
+                      </ul>
+                      <ul class="catalog-submenu_list">
+                        <li class="catalog-submenu__category-name">
+                          Оптика <span class="catgory-amount">(2)</span>
+                        </li>
+                        <li class="catalog-submenu__category-name">
+                          <a href="" class="catalog-submenu-product">Лінзи для сонячних окулярів</a>
+                        </li>
+                        <li class="catalog-submenu__category-name">
+                          <a href="" class="catalog-submenu-product">Окуляри сонцезахисні</a>
+                        </li>
+                      </ul>
+                    </div>
+                  </li>
+                  <!-- catalog first-level-->
+                  <li class="catalog-content_mainCategory">
+                    <a href="#" class="catalog-name">Скейтборди</a>
+                    <!-- catalog second-level-->
+                    <div class="catalog-submenu">
+                      <ul class="catalog-submenu_list">
+                        <li class="catalog-submenu__category-name">
+                          Одяг <span class="catgory-amount">(15)</span>
+                        </li>
+                        <li class="catalog-submenu__category-name">
+                          <a href="" class="catalog-submenu-product">Брюки короткі</a>
+                        </li>
+                        <li class="catalog-submenu__category-name">
+                          <a href="" class="catalog-submenu-product">Жилети</a>
+                        </li>
+                        <li class="catalog-submenu__category-name">
+                          <a href="" class="catalog-submenu-product">Кофти термобілизна</a>
+                        </li>
+                      </ul>
+                      <ul class="catalog-submenu_list">
+                        <li class="catalog-submenu__category-name">
+                          Взуття <span class="catgory-amount">(1)</span>
+                        </li>
+                        <li class="catalog-submenu__category-name">
+                          <a href="" class="catalog-submenu-product">Кросівки</a>
+                        </li>
+                      </ul>
+                      <ul class="catalog-submenu_list">
+                        <li class="catalog-submenu__category-name">
+                          Оптика <span class="catgory-amount">(2)</span>
+                        </li>
+                        <li class="catalog-submenu__category-name">
+                          <a href="" class="catalog-submenu-product">Лінзи для сонячних окулярів</a>
+                        </li>
+                        <li class="catalog-submenu__category-name">
+                          <a href="" class="catalog-submenu-product">Окуляри сонцезахисні</a>
+                        </li>
+                      </ul>
+                    </div>
+                  </li>
+                  <!-- catalog first-level-->
+                  <li class="catalog-content_mainCategory">
+                    <span class="catalog-name">Туризм
+                  </li>
+                  <!-- catalog first-level-->
+                  <li class="catalog-content_mainCategory">Ковзани льодові</li>
+                  <!-- catalog first-level-->
+                  <li class="catalog-content_mainCategory">Лижі гірські</li>
+                  <!-- catalog first-level-->
+                  <li class="catalog-content_mainCategory">Сноуборди</li>
+                </ul>
+              </li>
+
+              <li class="nav-item item-topline item-underline"><a href="#" class="nav-link">Акції та новини</a></li>
+            </ul>
+            <a href="#" class="logo-wrap">
+              <img src="assets/images/richsport_logo.png" alt="richsport">
+            </a>
+            <ul class="nav nav-left">
+              <li class="nav-item item-underline"><a href="#" class="nav-link">Медіа</a></li>
+              <li class="nav-item item-underline"><a href="#" class="nav-link">Контакти</a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      <div class="button-wrap">
+        <a class="rich-button" href="#">
+        </a>
+      </div>
+    </div>
+
+
+  </header>
+  <main class="main-contetnt">
+    <div class="container">
+      <!-- page top -->
+      <div class="page-name">
+        <div class="h2">Каталог</div>
+        <ul class="breadcrumb">
+          <li><a href="#">Головна</a></li>
+          <li><a href="#">Каталог</a></li>
+        </ul>
+      </div>
+      <!-- page content -->
+      <div class="top-info">
+        <img src="/assets/icons/icon-park-outline_attention.svg" alt="">
+        <div class="top-info_text">
+          <p class="top-info-header">
+            Інформація про наявність товару у магазинах оновлюється з інтервалом 1 доба
+          </p>
+          <p class="top-info-content">
+            Уточнюйте про наявність та ціну товару за <a href="">телефонами магазинів </a>. Характеристики товарів в
+            магазинах можуть відрізнятися від наведених на сайті.
+          </p>
+        </div>
+      </div>
+
+      <div class="ware-wrap">
+        <div class="ware-left">
+          <div class="slider-ware-wrap">
+            <div id="owl-ware" class="owl-carousel owl-theme">
+              <div class="item">
+                <a data-lightbox="roadtrip" href="./assets/ware/az566_991649 1.png" alt="">
+                  <img src="./assets/ware/az566_991649 1.png" alt="">
+                </a>
+              </div>
+              <div>
+
+                <a data-lightbox="roadtrip" href="./assets/ware/bike.png" alt="">
+                  <img src="./assets/ware/bike.png" alt="">
+                </a>
+              </div>
+            </div>
+
+          </div>
+          <div class="anoteher-info-wrap">
+            <div class="another-info first">
+              <p class="another-info-text">Наявність в магазинах Rich Sport</p>
+              <div class="distance">
+                <img src="/assets/icons/coubs.svg" alt="">
+                <span>Відкритий + дистанційна видача товара</span>
+
+              </div>
+
+              <p class="another-info-text">Одеса вул. Балківська, д. 199. Тел. +38 (048) 770-87-96</p>
+              <div class="adress-link">
+                <img src="/assets/icons/carbon_location-filled.svg" alt="">
+                <a class="accentik-link" href="#"> Схема проїзду </a>
+              </div>
+            </div>
+            <div class="another-info another-info-part2">
+              <div class="sizes-wrap ">
+                <div class="btn send-btn sizes-btn">Таблиця розмірів</div>
+              </div>
+              <table class="sizeTable" cellpadding="0" cellspacing="0" width="100%" class="data_table b20">
+                <thead>
+                  <tr>
+                    <th align="center">Артикул</th>
+                    <th align="center">Размер</th>
+                    <th align="center">Цвет</th>
+                    <th>&nbsp;</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td align="center" class="nowrap">1001110221</td>
+                    <td align="center">20.75 "TT</td>
+                    <td align="center">matt blue</td>
+                    <td class="ask-wrap" width="89">
+                      <div class="button button_s button_check nowrap" id="ask_score">
+                        <div>
+                          запросити<br>рахунок
+                        </div>
+                      </div>
+                    </td>
+                  </tr>
+                </tbody>
+              </table>
+              <a href="#" class="accentik-link callCityModal">Наявність в інших містах</a>
+            </div>
+          </div>
+        </div>
+
+
+        <div class="ware-right">
+          <h1 class="h1 name-of-ware">Axiom1 Підсідельна сумка Rider DLX L</h1>
+          <div class="price-info">
+            <div class="price-block">
+              <p class="price-name">Ціна:</p>
+              <p class="old-price">1260 грн</p>
+              <p class="actual-price">696 грн</p>
+            </div>
+            <button class="buy-btn btn send-btn">Купити</button>
+            <div class="logo-place">
+              <img src="/assets/images/logos/axiom.png" alt="">
+            </div>
+          </div>
+          <!--buttons of tabs-->
+          <div class="ware-char-block">
+            <div class="ware-char-top">
+              <button data-tab-target="#home" class="tab active ware-btn">Опис</button>
+              <button data-tab-target="#pricing" class="tab ware-btn">Як замовити</button>
+            </div>
+            <!--btabs content -->
+            <div class="ware-char-content">
+              <div id="home" data-tab-content class="active ware-charsctreictic">
+                
+                <ul class="ware-list">
+                  <li>Водонепроникна блискавка</li>
+                </ul>
+                <div class="ware-row">
+                  <div class="ware-char-name">Бренд:</div>
+                  <div class="ware-char-char accent">Axiom</div>
+                </div>
+                <div class="ware-row">
+                  <div class="ware-char-name">Рік:</div>
+                  <div class="ware-char-char ">2021</div>
+                </div>
+                <div class="ware-row">
+                  <div class="ware-char-name">Вік:</div>
+                  <div class="ware-char-char ">Для дітей</div>
+                </div>
+                <div class="ware-row">
+                  <div class="ware-char-name">Матеріал:</div>
+                  <div class="ware-char-char ">Водостійкий поліестер 600D</div>
+                </div>
+                <div class="ware-row">
+                  <div class="ware-char-name">Вага, г::</div>
+                  <div class="ware-char-char ">100</div>
+                </div>
+                <div class="ware-row">
+                  <div class="ware-char-name">Ціна:</div>
+                  <div class="ware-char-char ">1300 грн</div>
+                </div>
+
+              </div>
+              <div id="pricing" data-tab-content class="ware-charsctreictic">
+                346
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </main>
+
+  <!-- The Modal  ORDER  -->
+  <div id="myModal" class="modal">    
+    <div class="modal-content">
+      <span class="close">
+        <img src="/assets/icons/close_menu.svg" alt="">
+      </span>
+      <p class="h2"> ДЛЯ ЗАМОВЛЕННЯ ТОВАРУ: </р>
+      <p class="" normal="text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quaerat eaque alias molestias
+        nihil id eos iusto repellat minus deleniti laudantium eveniet rerum mollitia minima provident, non ab dolores
+        ipsa hic.</p>
+    </div>
+  </div>
+
+  <!--  SIZES MODAL -->
+
+  <div id="sizesModal" class="sizesModal">
+    <div class="modal-content">
+      <span class="closer">
+        <img src="/assets/icons/close_menu.svg" alt="">
+      </span>
+      <div class="jspPane" style="padding: 0px; top: 0px;">
+        <p class="h3">Таблиця відповідності розмірів одягу Level</p>
+        <table border="1" class="sv-table"></table>
+        <table border="1" class="sv-table">
+          <tbody>
+            <tr>
+              <td>Куртка чоловіча</td>
+              <td>44</td>
+              <td>46</td>
+              <td>48</td>
+              <td>50</td>
+              <td>52</td>
+            </tr>
+            <tr>
+              <td></td>
+              <td>S</td>
+              <td>M</td>
+              <td>L</td>
+              <td>XL</td>
+              <td>XXL</td>
+            </tr>
+            <tr>
+              <td>Обхват грудей (см)</td>
+              <td>90/94</td>
+              <td>94/98</td>
+              <td>98/102</td>
+              <td>102/106</td>
+              <td>106/110</td>
+            </tr>
+            <tr>
+              <td>Обхват стегон (см)</td>
+              <td>90/93</td>
+              <td>94/97</td>
+              <td>98/101</td>
+              <td>102/105</td>
+              <td>106/109</td>
+            </tr>
+            <tr>
+              <td>Довжина рукава (см)</td>
+              <td>69/71</td>
+              <td>70/72</td>
+              <td>71/73</td>
+              <td>72/74</td>
+              <td>73/75</td>
+            </tr>
+          </tbody>
+        </table>
+        <table border="1" class="sv-table">
+          <tbody>
+            <tr>
+              <td>Куртка жіноча</td>
+              <td>42</td>
+              <td>44</td>
+              <td>46</td>
+              <td>48</td>
+              <td>50</td>
+            </tr>
+            <tr>
+              <td></td>
+              <td>XS</td>
+              <td>S</td>
+              <td>M</td>
+              <td>L</td>
+              <td>XL</td>
+            </tr>
+            <tr>
+              <td>Обхват грудей (см)</td>
+              <td>80/84</td>
+              <td>84/88</td>
+              <td>88/92</td>
+              <td>92/96</td>
+              <td>96/100</td>
+            </tr>
+            <tr>
+              <td>Обхват талії (см)</td>
+              <td>64/68</td>
+              <td>68/72</td>
+              <td>72/76</td>
+              <td>76/80</td>
+              <td>82/86</td>
+            </tr>
+            <tr>
+              <td>Обхват стегон (см)</td>
+              <td>93/96</td>
+              <td>97/100</td>
+              <td>101/104</td>
+              <td>105/108</td>
+              <td>105/108</td>
+            </tr>
+            <tr>
+              <td>Довжина рукава (см)</td>
+              <td>60/62</td>
+              <td>61/63</td>
+              <td>62/64</td>
+              <td>63/65</td>
+              <td>64/66</td>
+            </tr>
+          </tbody>
+        </table>
+        <table border="1" class="sv-table">
+          <tbody>
+            <tr>
+              <td>Штани чоловічі</td>
+              <td>44</td>
+              <td>46</td>
+              <td>48</td>
+              <td>50</td>
+              <td>52</td>
+            </tr>
+            <tr>
+              <td></td>
+              <td>S</td>
+              <td>M</td>
+              <td>L</td>
+              <td>XL</td>
+              <td>XXL</td>
+            </tr>
+            <tr>
+              <td>Обхват талії (см)</td>
+              <td>78/81</td>
+              <td>82/85</td>
+              <td>86/89</td>
+              <td>100/103</td>
+              <td>104/107</td>
+            </tr>
+            <tr>
+              <td>Обхват стегон (см)</td>
+              <td>98/102</td>
+              <td>102/106</td>
+              <td>106/110</td>
+              <td>110/114</td>
+              <td>114/118</td>
+            </tr>
+            <tr>
+              <td>Довжина внутрішнього шва штанів (см)</td>
+              <td>77/79</td>
+              <td>78/80</td>
+              <td>81/83</td>
+              <td>82/84</td>
+              <td>83/85</td>
+            </tr>
+          </tbody>
+        </table>
+        <table border="1" class="sv-table">
+          <tbody>
+            <tr>
+              <td>Штани жіночі</td>
+              <td>42</td>
+              <td>44</td>
+              <td>46</td>
+              <td>48</td>
+              <td>50</td>
+            </tr>
+            <tr>
+              <td></td>
+              <td>ХS</td>
+              <td>S</td>
+              <td>M</td>
+              <td>L</td>
+              <td>XL</td>
+            </tr>
+            <tr>
+              <td>Обхват талії (см)</td>
+              <td>66/68</td>
+              <td>69/72</td>
+              <td>73/76</td>
+              <td>77/80</td>
+              <td>81/84</td>
+            </tr>
+            <tr>
+              <td>Обхват стегон (см)</td>
+              <td>91/94</td>
+              <td>95/98</td>
+              <td>99/102</td>
+              <td>103/106</td>
+              <td>107/110</td>
+            </tr>
+            <tr>
+              <td>Довжина внутрішнього шва штанів (см)</td>
+              <td>75/77</td>
+              <td>76/78</td>
+              <td>77/79</td>
+              <td>78/80</td>
+              <td>79/81</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+
+    </div>
+  </div>
+
+
+  <!-- Sity modal -->
+  <div id="cityModal" class="cityModal modal">
+
+    <!-- Modal content -->
+    <div class="modal-content">
+      <span class="close closeModal">
+        <img src="/assets/icons/close_menu.svg" alt="">
+      </span>
+      <p class="h2 nameOfWareModal"> Axios підсідельник X567 </р>
+      <form class="choose-another-form" action="#">
+        <!-- form-select -->
+        <label for="">
+          <p class="madal-select-name">Місто</p>
+          <div class="select ">
+            <select id="standard-select">
+              <option selected="true" disabled="disabled">Місто</option>
+              <option value="Option 1">Одеса</option>
+              <option value="Option 2">Вінниця</option>
+              <option value="Option 3">Київ</option>
+            </select>
+          </div>
+        </label>
+        <!-- form-select -->
+        <label for="">
+          <p class="madal-select-name">Колір</p>
+          <div class="select ">
+            <select id="standard-select">
+              <option selected="true" disabled="disabled">Колір</option>
+              <option value="Option 1">Рожевий</option>
+              <option value="Option 2">Білий</option>
+              <option value="Option 3">Блакитиний</option>
+              <option value="Option 3">Червоний</option>
+            </select>
+          </div>
+        </label>
+        <!-- form-select -->
+        <label for="">
+          <p class="madal-select-name">Розмір</p>
+          <div class="select ">
+            <select id="standard-select">
+              <option selected="true" disabled="disabled">Розмір</option>
+              <option value="Option 1">S</option>
+              <option value="Option 2">M</option>
+              <option value="Option 3">XL</option>
+            </select>
+          </div>
+        </label>
+
+        <button class="buy-btn btn send-btn">Підібрати</button>
+      </form>
+    </div>
+
+  </div>
+
+  <footer class="footer">
+    <div class="left-part">
+
+
+      <div class="left-logo">
+        <div class="inner-left-logo">
+          <a class="footer-logo" href="#">
+            <img src="/assets/images/richsport_logo.png" alt="">
+          </a>
+
+          <div class=" buttons-wrap">
+            <a class="rich-button-footer" href="#">
+            </a>
+          </div>
+        </div>
+      </div>
+
+    </div>
+
+    <div class="container">
+      <div class="footer-menu">
+        <ul class="footer-nav">
+          <h4 class="h4">Про нас</h4>
+          <li class="footer-li">
+            <a class="footer-a" href="#">
+              Карта сайту
+            </a>
+          </li>
+          <li class="footer-li">
+            <a class="footer-a" href="#">
+              Як замовити това
+            </a>
+          </li>
+          <li class="footer-li">
+            <a class="footer-a" href="#">
+              Гарантійні зобовїязання
+            </a>
+          </li>
+          <li class="footer-li">
+            <a class="footer-a" href="#">
+              Акції та новини
+            </a>
+          </li>
+          <li class="footer-li">
+            <a class="footer-a" href="#">
+              Оплата
+            </a>
+          </li>
+          <li class="footer-li">
+            <a class="footer-a" href="#">
+              Доставка
+            </a>
+          </li>
+          <li class="footer-li">
+            <a class="footer-a" href="#">
+              Повернення та обмін
+            </a>
+          </li>
+        </ul>
+
+        <ul class="footer-contacts">
+          <h4 class="h4">Про нас</h4>
+          <li class="footer-li">
+            <a class="footer-a" href="">
+              <img class="link-image" src="/assets/icons/phone.svg" alt="">
+              +38 (093) 769 31 91
+            </a>
+          </li>
+          <li class="footer-li">
+            <a class="footer-a" href="">
+              <img class="link-image" src="/assets/icons/mail.svg" alt="">
+              vinnitsa@richsport.ua
+            </a>
+          </li>
+        </ul>
+
+        <ul class="footer-info">
+          <h4 class="h4">Час роботи</h4>
+          <li class="footer-li"> Пн-Пт: з 9:00 до 18:00 </li>
+          <li class="footer-li"> Субота: За домовленістю </li>
+          <li class="footer-li"> Неділя: вихідний </li>
+          <li class="footer-li"> Прйом двінків: з 09:00 до 19:00
+            (7 днів на тиждень) </li>
+
+        </ul>
+      </div>
+      <div class="footer-creators">
+        <p>© RICH SPORT</p>
+
+        <a href="#" class="mart-link">
+          <img src="assets/icons/mart-logo.svg" alt="#">
+          <span>Розробка сайту — студія Март</span>
+        </a>
+
+      </div>
+    </div>
+
+
+
+
+
+  </footer>
+</body>
+
+</html>
+<script src="./lightbox2/dist/js/lightbox-plus-jquery.js"></script>
+<!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script> -->
+<script src="./owl2/owl.carousel.js"></script>
+<!-- <script src="./lightbox2/dist/js/lightbox.js"></script> -->
+
+
+<script src="js/main.js" defer></script>
+<script src="js/ware-page.js" defer></script>
+<script defer src="https://use.fontawesome.com/releases/v5.3.1/js/all.js"></script>
